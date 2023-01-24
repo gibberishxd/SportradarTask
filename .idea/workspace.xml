@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f433179-5af1-465c-bd68-1207ad9671bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_core_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_databind_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BE_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportradarTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SportradarTask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="9f433179-5af1-465c-bd68-1207ad9671bf" name="Changes" comment="Data Map and library imports" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +69,16 @@
       <updated>1674392412486</updated>
       <workItem from="1674392413683" duration="4508000" />
       <workItem from="1674462647750" duration="676000" />
+      <workItem from="1674573200473" duration="388000" />
     </task>
+    <task id="LOCAL-00001" summary="Data Map and library imports">
+      <created>1674573320610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674573320610</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Data Map and library imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Map and library imports" />
   </component>
 </project>
