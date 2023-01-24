@@ -22,7 +22,6 @@ public class DataMap {
 
     @JsonIgnoreProperties(ignoreUnknown = true)
     class Event {
-
         @JsonProperty("sport_event_id")
         private String sportEventId;
 
@@ -56,7 +55,94 @@ public class DataMap {
         @JsonProperty("probability_away_team_winner")
         private double probabilityAwayTeamWinner;
 
-        // getters and setters
+        public String getSportEventId() {
+            return sportEventId;
+        }
+
+        public String getStartDate() {
+            return startDate;
+        }
+
+        public String getSportName() {
+            return sportName;
+        }
+
+        public String getCompetitionName() {
+            return competitionName;
+        }
+
+        public String getCompetitionId() {
+            return competitionId;
+        }
+
+        public String getSeasonName() {
+            return seasonName;
+        }
+
+        public List<Competitor> getCompetitors() {
+            return competitors;
+        }
+
+        public Venue getVenue() {
+            return venue;
+        }
+
+        public double getProbabilityHomeTeamWinner() {
+            return probabilityHomeTeamWinner;
+        }
+
+        public double getProbabilityDraw() {
+            return probabilityDraw;
+        }
+
+        public double getProbabilityAwayTeamWinner() {
+            return probabilityAwayTeamWinner;
+        }
+
+        public void setSportEventId(String sportEventId) {
+            this.sportEventId = sportEventId;
+        }
+
+        public void setStartDate(String startDate) {
+            this.startDate = startDate;
+        }
+
+        public void setSportName(String sportName) {
+            this.sportName = sportName;
+        }
+
+        public void setCompetitionName(String competitionName) {
+            this.competitionName = competitionName;
+        }
+
+        public void setCompetitionId(String competitionId) {
+            this.competitionId = competitionId;
+        }
+
+        public void setSeasonName(String seasonName) {
+            this.seasonName = seasonName;
+        }
+
+        public void setCompetitors(List<Competitor> competitors) {
+            this.competitors = competitors;
+        }
+
+        public void setVenue(Venue venue) {
+            this.venue = venue;
+        }
+
+        public void setProbabilityHomeTeamWinner(double probabilityHomeTeamWinner) {
+            this.probabilityHomeTeamWinner = probabilityHomeTeamWinner;
+        }
+
+        public void setProbabilityDraw(double probabilityDraw) {
+            this.probabilityDraw = probabilityDraw;
+        }
+
+        public void setProbabilityAwayTeamWinner(double probabilityAwayTeamWinner) {
+            this.probabilityAwayTeamWinner = probabilityAwayTeamWinner;
+        }
+
     }
 
     @JsonIgnoreProperties(ignoreUnknown = true)
@@ -83,7 +169,61 @@ public class DataMap {
         @JsonProperty("gender")
         private String gender;
 
-        // getters and setters
+        public String getId() {
+            return id;
+        }
+
+        public void setId(String id) {
+            this.id = id;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getCountry() {
+            return country;
+        }
+
+        public void setCountry(String country) {
+            this.country = country;
+        }
+
+        public String getCountryCode() {
+            return countryCode;
+        }
+
+        public void setCountryCode(String countryCode) {
+            this.countryCode = countryCode;
+        }
+
+        public String getAbbreviation() {
+            return abbreviation;
+        }
+
+        public void setAbbreviation(String abbreviation) {
+            this.abbreviation = abbreviation;
+        }
+
+        public String getQualifier() {
+            return qualifier;
+        }
+
+        public void setQualifier(String qualifier) {
+            this.qualifier = qualifier;
+        }
+
+        public String getGender() {
+            return gender;
+        }
+
+        public void setGender(String gender) {
+            this.gender = gender;
+        }
     }
 
     @JsonIgnoreProperties(ignoreUnknown = true)
@@ -110,6 +250,60 @@ public class DataMap {
         @JsonProperty("country_code")
         private String countryCode;
 
-        // getters and setters
+        public String getId() {
+            return id;
+        }
+
+        public void setId(String id) {
+            this.id = id;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public int getCapacity() {
+            return capacity;
+        }
+
+        public void setCapacity(int capacity) {
+            this.capacity = capacity;
+        }
+
+        public String getCityName() {
+            return cityName;
+        }
+
+        public void setCityName(String cityName) {
+            this.cityName = cityName;
+        }
+
+        public String getCountryName() {
+            return countryName;
+        }
+
+        public void setCountryName(String countryName) {
+            this.countryName = countryName;
+        }
+
+        public String getMapCoordinates() {
+            return mapCoordinates;
+        }
+
+        public void setMapCoordinates(String mapCoordinates) {
+            this.mapCoordinates = mapCoordinates;
+        }
+
+        public String getCountryCode() {
+            return countryCode;
+        }
+
+        public void setCountryCode(String countryCode) {
+            this.countryCode = countryCode;
+        }
     }
 }
